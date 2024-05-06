@@ -1,0 +1,112 @@
+*{
+    margin: 0;                           /* RESET */
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: #ffff;          /* ALTERAÇÃP DA COR DO CORPO */
+    margin-top: 100px;                  /* ALTERAÇÃO DA MARGEM DO TOPO */
+    font-family: "Roboto", sans-serif;  /* ALTERAÇÃO DA FONTE */
+    font-weight: 400;                   /* ALTERAÇÃO DO PESO DA FONTE */
+    font-style: normal;                 /* ALTERAÇÃO DO ESTILO DA FONTE */
+}
+
+
+
+
+
+/* CONTAINER */
+.container{
+    max-width: 960px;                   /* ALTERAÇÃO DO COMPRIMENTO DA DIV */
+    width: 100%;                        /* ADAPTANDOPARA COMPORTAR TODO O ESPAÇO */
+    margin: 0 auto;                     /* ALIANDO AO CENTRO */
+}
+
+ /* CABEÇALHO */
+
+header{
+    display: flex;                      /* CONTEUDOS FLEXIVEIS */ 
+    align-items: center;                /* CENTRALIZANDO ITENS */
+    margin-bottom: 10px;                /* MARGEM INFERIOR */
+}
+
+header img{
+    height: 36px;                       /* ALTERANDO O TAMANHO DA IMAGEM  */
+    margin-left: 16px;                  /* MARGEM LATERAL */
+}
+header h1{
+
+    font-family: "Roboto", sans-serif;  /* ALTERAÇAÕ DA FONTE */
+    font-weight: 700;                   /* ALTERAÇÃO DO PESO DA FONTE */
+    font-style: normal;                 /* ALTERAÇÃO DO ESTILO DA FONTE */
+    padding-left: 4px;
+
+}
+
+
+
+/* FORMULARIO */
+
+.container form{
+    display: flex;                      /* CONTEUDOS FLEXIVEIS */
+    max-width: 640px;                   /* ALTERAÇÃO DO TAMANO DOS ELEMENTOS */
+    width: 100%;                        /* ADAPTANDOPARA COMPORTAR TODO O ESPAÇO */
+    padding-left: 20px;                 /* ESPAÇAMENTO A ESQUERDA */
+    color: white;                     /* ALTERAÇÃO DE COR */
+    
+    
+}
+.container form input{
+    margin-right: 20px;                 /* ADIÇÇÃO DE MARGEM A DIREITA */
+    border: 1px solid #000;           /* ADIÇÃO DE BORDA */
+    border-radius: 5px;                 /* COMPORTAMENTO DE BORDA */
+    text-align: center;                 /* ALINHANDO ELEMENTOS */
+    background-color: #c1c1c1;        /* ESTILIZAÇÃO DE ELEMENTO */
+    color: #1c1c1c;                   /* ESTILIZAÇÃO DE TEXTO */
+}
+.container form button{
+    background-color: #009432;         /* ESTILIZAÇÃO DO ELEMENTO */
+    border: 1px solid #000;            /* ADIÇÃO DE BORDA */
+    border-radius: 5px;                  /* COMPORTAMENTO DE BORDA */
+    padding-left: 5px;                   /* ESPAÇAMENTO A ESQUERDA */
+    padding-right: 5px;                  /* ESPAÇAMENTO A DIREITA */
+    cursor: pointer;                     /* MUDANÇA DE CURSOR */
+}
+
+
+
+
+
+/* TABELA */
+
+table{
+    margin-right: 50px;
+    margin-top: 20px;                    /* MARGEM AO TOPO */
+    padding-left: 20px;                  /* ESPAÇAMENTO A ESQUERDA */
+}
+
+
+
+table  th {
+    border-bottom: 2px solid #000;     /*ADIÇÃO DE BORDA */
+    padding: 16px;
+    font-size: 17px;
+    font-weight: bold;
+    
+}
+
+table td  {
+    align-items: center;                 /* ALINHAMENTO DE ELEMNTOS AO CENTRO */
+    margin-bottom: 10px;                 /* MARGEM DA PARTE INFERIOR */
+    padding-left: 20px;                   /* ESPAÇAMENTO A ESQUERDA */
+    padding-top: 20PX;
+}
+
+table img{
+    height: 15px;                        /* ALTERAÇÃO DE TAMANHO DA O ELEMENTO */
+    padding-left: 5px;                   /* ESPAÇAMENTO A ESQUERDA */
+}
+
+
